@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Update
 RUN apt-get update
+RUN apt-get -y dist-upgrade
 
 # Start editing
 # Install package here for cache
